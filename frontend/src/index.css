@@ -1,0 +1,113 @@
+body {
+  background-image: url('./assets/gym.-bg.png');
+  background-size: cover;
+  background-position: center;
+ 	background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* TITULO PRINCIPAL */
+h1 {
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #faf8f8;
+}
+
+/* === TARJETAS === */
+.card {
+  background: rgba(245, 242, 242, 0.1);
+  border: 1px solid rgba(245, 242, 242, 0.1);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.25);
+  color: #fff;
+}
+
+/* TITULO DE TARJETA */
+.card-title {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+/* INPUTS */
+input.form-control {
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.20);
+  backdrop-filter: blur(8px);
+  color: #fff;
+  border-radius: 10px;
+}
+
+input.form-control::placeholder {
+  color: #ddd;
+}
+
+/* BOTONES PRINCIPALES */
+.btn-primary {
+  background: #0098fd;
+  border: none;
+  padding: 10px 18px;
+  font-weight: 900;
+  border-radius: 10px;
+}
+
+
+/* BOTON EDITAR */
+.btn-outline-primary {
+  border-radius: 8px;
+  border: 1px solid #80d8ff;
+  color: #80d8ff;
+}
+.btn-outline-primary:hover {
+  background: #80d8ff;
+  color: #000;
+}
+
+/* BOTON ELIMINAR */
+.btn-danger {
+  background: #ff5252;
+  border-radius: 8px;
+  border: none;
+}
+.btn-danger:hover {
+  background: #ff1744;
+}
+
+/* === LISTA DE RESERVAS === */
+.list-group-item {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.12);
+  backdrop-filter: blur(8px);
+  border-radius: 12px !important;
+  color: #fff;
+}
+
+/* === SLOTS (BOTONES DE HORARIOS) === */
+.btn-success,
+.btn-warning,
+.btn-secondary,
+.btn-outline-secondary {
+  border-radius: 12px;
+  padding: 12px;
+  font-weight: 600;
+}
+
+.btn-success {
+  background: #61c800;
+  border: none;
+}
+.btn-warning {
+  background: #ffb300;
+  border: none;
+}
+.btn-secondary {
+  background: #777;
+}
+
+/* BADGES */
+.badge {
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-weight: bold;
+}

@@ -136,7 +136,7 @@ export default function ReservaForm({ onSave, editingReserva = null, onCancel = 
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
             <label className="form-label">Nombre</label>
-            <input className="form-control" value={nombre} onChange={(e) => setNombre(e.target.value)} />
+            <input className="form-control" value={nombre} onChange={(e) => {setNombre(e.target.value);setError(null);}} />
           </div>
 
           <div className="mb-3">

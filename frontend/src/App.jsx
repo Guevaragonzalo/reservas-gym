@@ -124,7 +124,7 @@ export default function App() {
 
   return (
     <div className="container py-4">
-      <h1 className="mb-4 text-center">Sistema de Reservas</h1>
+      <h1 className="mb-4 text-center">Sistema de reservas GYM</h1>
 
       {/* ALERTA GLOBAL */}
       {alert && (
